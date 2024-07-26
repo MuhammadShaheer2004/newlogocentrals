@@ -344,6 +344,7 @@ li{
  .work-section{
     margin-top: 80px;
     margin-bottom: 120px;
+    
  }   
  .work-section h1{
     font-weight: 900;
@@ -373,6 +374,69 @@ li{
  /* Work Section CSS ENDS */
 
 
+
+
+
+
+/*Case Study SectiCn */
+
+
+.case-study-section{
+background-image: url(./200ppi/case-study-bg.png);
+background-position: top center;
+background-size: cover;
+}
+
+.case-study-images{
+    margin: 80px 0px;
+}
+.case-study-images img{
+    max-width: 100%;
+    height: auto;
+}
+
+.case-study-section .service-heading h1{
+    padding-top: 50px;
+}
+.case-btn{
+    background: transparent;
+    border: none;
+}
+.case-pic{
+    width: 80%;
+    height: auto;
+    background: red;
+    display: flex;
+    justify-content: center;
+
+}
+.case-pic img{
+    width: 80%;
+    height: auto;
+
+
+}
+#myheader{
+    width: 80%; 
+    margin-left: 100px; 
+    margin-top:50px; 
+   background: var(--secondary);
+     height: auto;
+    padding-top: 100px;
+    /* display: flex; */
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom:100px;
+    border: none;
+    
+}
+
+.case-img{
+    margin-left: 50px;
+}
+
+/* Case Study Section Css  */
+
  /* Our Work Section Css Starts */
 .our-work-section{
     /* background-image: url(./200ppi/Asset\ 3.png); */
@@ -385,9 +449,6 @@ li{
     max-width: 100%;    
     height: auto;
 
-}
-.services-section .row{
-    padding-top: 100px;
 }
 
  /* Our work Section Css Ends */
@@ -558,6 +619,7 @@ li{
         /* margin: 5px; */
         border-radius: 50px;
     }
+
     .form-input{
         width: 100%;
         display: flex;
@@ -578,6 +640,9 @@ li{
         
 
     }
+   
+
+
     .form-input i{
         font-size: 16px;
         margin: 10px ;
@@ -605,7 +670,7 @@ li{
     }
     .form-section span{
         color: var(--primary);
-        padding: 20px;
+        /* padding: 20px; */
     }
     .btn-message{
         background: var(--primary);
@@ -615,6 +680,24 @@ li{
         border: none;
 
         
+    }
+    @media (width<992px){
+        .form-section{
+            background-image: none
+        }
+    }
+    
+
+    @media (width<772px){
+        .form-input input{
+            font-size: 12px;
+    }
+}
+
+    @media (width<400px){
+        .form-input i {
+            font-size: 10px;
+    }
     }
 
 /* Form Section CSS ENDS */
